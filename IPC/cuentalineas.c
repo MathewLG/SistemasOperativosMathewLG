@@ -9,6 +9,9 @@ int main(){
 			lineas++;
 		}
 	}
+	if(current != '\n'){
+		lineas++;
+	}
 	printf("Lineas : %d\n",lineas);
 	return 0;
 }
